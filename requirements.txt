@@ -1,0 +1,10 @@
+# core
+swisseph
+numpy
+pandas
+pytz
+# simple UI (optional)
+gradio
+# utils
+timezonefinder
+python-dateutil

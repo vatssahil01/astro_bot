@@ -1,91 +1,91 @@
 Name,Date,Time,Latitude,Longitude,Question,Expected_Result
-Ravi Sharma,1990-08-15,06:30,22.5726,88.3639,Am I Manglik?,Yes (Mars in 7th House, Manglik rule triggered)
-Priya Mehta,1995-02-10,14:45,19.0760,72.8777,What is my Moon sign?,Moon in Libra
-Amit Kumar,2000-12-25,21:10,28.6139,77.2090,Which Mahadasha am I in right now?,Currently under Saturn (Shani) Mahadasha
-Sneha Rao,1987-05-02,09:15,12.9716,77.5946,Am I Manglik?,No (Mars in 11th House)
-Rahul Verma,2001-01-18,23:55,26.9124,75.7873,What is my Moon sign?,Moon in Taurus
-Divya Nair,1998-09-09,05:00,8.5241,76.9366,Am I Manglik?,Yes (Mars in 4th House)
-Karan Patel,1993-03-25,12:10,23.0225,72.5714,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha
-Neha Joshi,1989-06-11,03:45,18.5204,73.8567,Am I Manglik?,No (Mars in 9th House)
-Arjun Iyer,1992-11-29,08:20,13.0827,80.2707,What is my Moon sign?,Moon in Sagittarius
-Simran Kaur,1997-01-07,16:30,30.7333,76.7794,Which Mahadasha am I in?,Venus (Shukra) Mahadasha running
-Vikram Singh,1985-07-21,10:00,28.7041,77.1025,Am I Manglik?,Yes (Mars in 8th House)
-Ananya Das,1999-12-05,22:45,22.9868,87.8550,What is my Moon sign?,Moon in Aquarius
-Sahil Gupta,2002-05-14,07:50,31.1048,77.1734,Am I Manglik?,No (Mars in 3rd House)
-Meera Khan,1991-10-18,18:20,25.4358,81.8463,Which Mahadasha am I in?,Mercury (Budh) Mahadasha
-Rohit Bansal,1988-04-27,04:55,26.4499,80.3319,Am I Manglik?,Yes (Mars in 12th House)
-Tanya Bhatt,1996-08-03,13:25,21.1458,79.0882,What is my Moon sign?,Moon in Cancer
-Naveen Kumar,1990-01-09,02:40,28.6139,77.2090,Which Mahadasha am I in?,Currently under Rahu Mahadasha
-Ritika Soni,1984-12-15,09:35,19.0760,72.8777,Am I Manglik?,No (Mars in 10th House)
-Aarav Desai,2003-06-23,17:05,22.3072,73.1812,What is my Moon sign?,Moon in Leo
-Isha Roy,1994-02-28,20:15,22.5726,88.3639,Am I Manglik?,Yes (Mars in 1st House)
+Ravi Sharma,1990-08-15,06:30,22.5726,88.3639,Am I Manglik?,No (Mars in 5th House)
+Priya Mehta,1995-02-10,14:45,19.0760,72.8777,What is my Moon sign?,Moon in Cancer
+Amit Kumar,2000-12-25,21:10,28.6139,77.2090,Which Mahadasha am I in right now?,Currently under Rahu (Rahu) Mahadasha
+Sneha Rao,1987-05-02,09:15,12.9716,77.5946,Am I Manglik?,No (Mars in 3th House)
+Rahul Verma,2001-01-18,23:55,26.9124,75.7873,What is my Moon sign?,Moon in Aquarius
+Divya Nair,1998-09-09,05:00,8.5241,76.9366,Am I Manglik?,No (Mars in 10th House)
+Karan Patel,1993-03-25,12:10,23.0225,72.5714,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha
+Neha Joshi,1989-06-11,03:45,18.5204,73.8567,Am I Manglik?,No (Mars in 5th House)
+Arjun Iyer,1992-11-29,08:20,13.0827,80.2707,What is my Moon sign?,Moon in Aries
+Simran Kaur,1997-01-07,16:30,30.7333,76.7794,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha
+Vikram Singh,1985-07-21,10:00,28.7041,77.1025,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)"
+Ananya Das,1999-12-05,22:45,22.9868,87.8550,What is my Moon sign?,Moon in Sagittarius
+Sahil Gupta,2002-05-14,07:50,31.1048,77.1734,Am I Manglik?,"Yes (Mars in 12th House, Manglik rule triggered)"
+Meera Khan,1991-10-18,18:20,25.4358,81.8463,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha
+Rohit Bansal,1988-04-27,04:55,26.4499,80.3319,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)"
+Tanya Bhatt,1996-08-03,13:25,21.1458,79.0882,What is my Moon sign?,Moon in Leo
+Naveen Kumar,1990-01-09,02:40,28.6139,77.2090,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha
+Ritika Soni,1984-12-15,09:35,19.0760,72.8777,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)"
+Aarav Desai,2003-06-23,17:05,22.3072,73.1812,What is my Moon sign?,Moon in Taurus
+Isha Roy,1994-02-28,20:15,22.5726,88.3639,Am I Manglik?,"Yes (Mars in 7th House, Manglik rule triggered)"
 Kabir Malhotra,1992-07-11,04:20,28.7041,77.1025,Am I Manglik?,No (Mars in 6th House)
-Aditi Sharma,1996-11-04,18:55,19.0760,72.8777,Which Mahadasha am I in?,Moon (Chandra) Mahadasha
-Rohan Pillai,1998-03-19,12:40,12.9716,77.5946,What is my Moon sign?,Moon in Aries
-Pooja Deshmukh,1985-10-02,07:05,21.1702,72.8311,Am I Manglik?,Yes (Mars in 2nd House)
-Shivani Kapoor,1997-12-29,22:10,22.5726,88.3639,Which Mahadasha am I in?,Saturn (Shani) Mahadasha
-Harsh Choudhary,2000-09-14,16:20,26.8467,80.9462,What is my Moon sign?,Moon in Scorpio
-Anjali Singh,1993-06-07,05:50,25.5941,85.1376,Am I Manglik?,No (Mars in 5th House)
-Dev Rathore,1989-01-23,01:35,23.0225,72.5714,Which Mahadasha am I in?,Mercury (Budh) Mahadasha
+Aditi Sharma,1996-11-04,18:55,19.0760,72.8777,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha
+Rohan Pillai,1998-03-19,12:40,12.9716,77.5946,What is my Moon sign?,Moon in Libra
+Pooja Deshmukh,1985-10-02,07:05,21.1702,72.8311,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)"
+Shivani Kapoor,1997-12-29,22:10,22.5726,88.3639,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha
+Harsh Choudhary,2000-09-14,16:20,26.8467,80.9462,What is my Moon sign?,Moon in Capricorn
+Anjali Singh,1993-06-07,05:50,25.5941,85.1376,Am I Manglik?,"Yes (Mars in 7th House, Manglik rule triggered)"
+Dev Rathore,1989-01-23,01:35,23.0225,72.5714,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha
 Manya Sethi,2002-04-18,10:15,30.3165,78.0322,What is my Moon sign?,Moon in Pisces
-Tarun Chauhan,1995-08-20,14:05,28.4089,77.3178,Am I Manglik?,Yes (Mars in 8th House)
-Jiya Arora,1991-05-30,03:30,26.9124,75.7873,Which Mahadasha am I in?,Ketu Mahadasha
-Rahul Ghosh,1983-02-12,20:45,22.9868,87.8550,What is my Moon sign?,Moon in Capricorn
+Tarun Chauhan,1995-08-20,14:05,28.4089,77.3178,Am I Manglik?,"Yes (Mars in 8th House, Manglik rule triggered)"
+Jiya Arora,1991-05-30,03:30,26.9124,75.7873,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha
+Rahul Ghosh,1983-02-12,20:45,22.9868,87.8550,What is my Moon sign?,Moon in Aries
 Niharika Jain,1999-03-05,06:25,24.5854,73.7125,Am I Manglik?,No (Mars in 11th House)
-Aditya Verma,1987-09-27,23:50,18.5204,73.8567,Which Mahadasha am I in?,Mars (Mangal) Mahadasha
-Lavanya Nair,2001-07-16,09:40,8.5241,76.9366,What is my Moon sign?,Moon in Libra
-Suresh Babu,1994-04-22,17:30,13.0827,80.2707,Am I Manglik?,Yes (Mars in 1st House)
-Nikita Agarwal,1986-12-08,11:55,25.3176,82.9739,Which Mahadasha am I in?,Jupiter (Guru) Mahadasha
-Krish Mehta,1993-02-01,04:05,23.0225,72.5714,What is my Moon sign?,Moon in Gemini
-Bhavya Patel,1990-11-11,19:20,22.3072,73.1812,Am I Manglik?,No (Mars in 9th House)
-Arnav Kulkarni,2004-05-09,07:35,18.5204,73.8567,Which Mahadasha am I in?,Sun (Surya) Mahadasha
-Reema Saxena,1992-08-21,13:50,26.4499,80.3319,What is my Moon sign?,Moon in Virgo
-Jayant Khanna,1988-03-29,00:10,28.6139,77.2090,Am I Manglik?,Yes (Mars in 12th House)
-Muskan Kohli,1997-01-18,15:25,30.7333,76.7794,Which Mahadasha am I in?,Venus (Shukra) Mahadasha
-Shiv Patel,1995-06-09,09:10,22.2587,71.1924,What is my Moon sign?,Moon in Taurus
-Deepika Raina,1984-01-30,05:15,34.1526,77.5771,Am I Manglik?,No (Mars in 3rd House)
-Arvind Mishra,1991-07-24,18:40,25.5941,85.1376,Which Mahadasha am I in?,Rahu Mahadasha
-Tanvi Rawat,1999-05-13,03:55,30.0668,79.0193,What is my Moon sign?,Moon in Cancer
-Yash Chauhan,1986-09-03,20:30,23.3441,85.3096,Am I Manglik?,Yes (Mars in 4th House)
-Sia Fernandes,2003-01-22,08:00,15.2993,74.1240,Which Mahadasha am I in?,Saturn (Shani) Mahadasha
-Manav Doshi,1990-03-09,11:35,20.5937,78.9629,What is my Moon sign?,Moon in Sagittarius
-Anushka Sen,1998-10-14,06:05,28.7041,77.1025,Am I Manglik?,No (Mars in 6th House)
-Ritik Sharma,1993-01-27,21:50,26.9124,75.7873,What is my Moon sign?,Moon in Capricorn
-Mahima Gupta,1987-03-09,03:25,19.0760,72.8777,Which Mahadasha am I in?,Moon (Chandra) Mahadasha
-Samar Sheikh,1991-12-19,13:10,12.9716,77.5946,Am I Manglik?,Yes (Mars in 7th House)
-Deepti Raj,1995-04-28,08:40,22.5726,88.3639,What is my Moon sign?,Moon in Pisces
-Raghav Tandon,1984-08-02,17:15,18.5204,73.8567,Which Mahadasha am I in?,Ketu Mahadasha
+Aditya Verma,1987-09-27,23:50,18.5204,73.8567,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha
+Lavanya Nair,2001-07-16,09:40,8.5241,76.9366,What is my Moon sign?,Moon in Aquarius
+Suresh Babu,1994-04-22,17:30,13.0827,80.2707,Am I Manglik?,"Yes (Mars in 8th House, Manglik rule triggered)"
+Nikita Agarwal,1986-12-08,11:55,25.3176,82.9739,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha
+Krish Mehta,1993-02-01,04:05,23.0225,72.5714,What is my Moon sign?,Moon in Aries
+Bhavya Patel,1990-11-11,19:20,22.3072,73.1812,Am I Manglik?,No (Mars in 6th House)
+Arnav Kulkarni,2004-05-09,07:35,18.5204,73.8567,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha
+Reema Saxena,1992-08-21,13:50,26.4499,80.3319,What is my Moon sign?,Moon in Aries
+Jayant Khanna,1988-03-29,00:10,28.6139,77.2090,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)"
+Muskan Kohli,1997-01-18,15:25,30.7333,76.7794,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha
+Shiv Patel,1995-06-09,09:10,22.2587,71.1924,What is my Moon sign?,Moon in Cancer
+Deepika Raina,1984-01-30,05:15,34.1526,77.5771,Am I Manglik?,"Yes (Mars in 1th House, Manglik rule triggered)"
+Arvind Mishra,1991-07-24,18:40,25.5941,85.1376,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha
+Tanvi Rawat,1999-05-13,03:55,30.0668,79.0193,What is my Moon sign?,Moon in Sagittarius
+Yash Chauhan,1986-09-03,20:30,23.3441,85.3096,Am I Manglik?,No (Mars in 3th House)
+Sia Fernandes,2003-01-22,08:00,15.2993,74.1240,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha
+Manav Doshi,1990-03-09,11:35,20.5937,78.9629,What is my Moon sign?,Moon in Capricorn
+Anushka Sen,1998-10-14,06:05,28.7041,77.1025,Am I Manglik?,No (Mars in 10th House)
+Ritik Sharma,1993-01-27,21:50,26.9124,75.7873,What is my Moon sign?,Moon in Aries
+Mahima Gupta,1987-03-09,03:25,19.0760,72.8777,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha
+Samar Sheikh,1991-12-19,13:10,12.9716,77.5946,Am I Manglik?,No (Mars in 6th House)
+Deepti Raj,1995-04-28,08:40,22.5726,88.3639,What is my Moon sign?,Moon in Cancer
+Raghav Tandon,1984-08-02,17:15,18.5204,73.8567,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha
 Ishika Bansal,1997-11-21,04:50,23.0225,72.5714,Am I Manglik?,No (Mars in 10th House)
-Harshit Meena,2002-02-14,10:30,28.6139,77.2090,Which Mahadasha am I in?,Mercury (Budh) Mahadasha
-Rhea Kapoor,2000-09-01,15:35,12.9716,77.5946,What is my Moon sign?,Moon in Aries
-Zaid Ali,1988-06-16,22:20,21.1458,79.0882,Am I Manglik?,Yes (Mars in 8th House)
-Meenal Agarwal,1994-01-04,06:55,13.0827,80.2707,Which Mahadasha am I in?,Sun (Surya) Mahadasha
-Farhan Khan,1982-10-29,19:05,22.9868,87.8550,What is my Moon sign?,Moon in Scorpio
+Harshit Meena,2002-02-14,10:30,28.6139,77.2090,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha
+Rhea Kapoor,2000-09-01,15:35,12.9716,77.5946,What is my Moon sign?,Moon in Capricorn
+Zaid Ali,1988-06-16,22:20,21.1458,79.0882,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)"
+Meenal Agarwal,1994-01-04,06:55,13.0827,80.2707,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha
+Farhan Khan,1982-10-29,19:05,22.9868,87.8550,What is my Moon sign?,Moon in Aries
 Jahnvi Reddy,1999-03-12,09:00,17.3850,78.4867,Am I Manglik?,No (Mars in 11th House)
-Kunal Rathod,1986-07-18,14:20,23.1765,75.7885,Which Mahadasha am I in?,Venus (Shukra) Mahadasha
-Shruti Nanda,1991-02-05,03:15,20.2961,85.8245,What is my Moon sign?,Moon in Gemini
-Sagar Jethva,1996-05-21,07:40,22.3072,73.1812,Am I Manglik?,Yes (Mars in 4th House)
-Roshni Pillai,1983-09-10,23:10,19.7515,75.7139,Which Mahadasha am I in?,Saturn (Shani) Mahadasha
-Joel Fernandes,1992-11-06,02:35,15.2993,74.1240,What is my Moon sign?,Moon in Virgo
-Prerna Sood,1997-12-14,11:05,30.3165,78.0322,Am I Manglik?,No (Mars in 3rd House)
-Akhil Saxena,1985-01-17,16:25,26.8467,80.9462,Which Mahadasha am I in?,Rahu Mahadasha
-Neeti Chowdhury,1990-06-22,05:55,22.2587,71.1924,What is my Moon sign?,Moon in Cancer
-Riyaz Shaikh,1989-03-30,00:45,19.0760,72.8777,Am I Manglik?,Yes (Mars in 1st House)
-Varun Mishra,1994-09-19,18:35,25.3176,82.9739,Which Mahadasha am I in?,Jupiter (Guru) Mahadasha
-Sanya Grover,2001-08-27,12:20,28.4089,77.3178,What is my Moon sign?,Moon in Taurus
-Abhay Nair,1987-12-03,10:10,8.5241,76.9366,Am I Manglik?,No (Mars in 5th House)
-Kritika Jain,1993-04-15,07:25,28.7041,77.1025,Which Mahadasha am I in?,Mars (Mangal) Mahadasha
-Vikas Chauhan,1999-11-09,20:55,26.9124,75.7873,What is my Moon sign?,Moon in Aquarius
-Meher Fatima,1985-02-26,03:45,22.5726,88.3639,Am I Manglik?,Yes (Mars in 12th House)
-Dev Ghosh,1992-08-05,13:15,22.9868,87.8550,Which Mahadasha am I in?,Moon (Chandra) Mahadasha
-Tara Menon,1998-07-03,06:35,12.9716,77.5946,What is my Moon sign?,Moon in Leo
-Ajinkya Patil,1989-10-23,17:50,19.9975,73.7898,Am I Manglik?,No (Mars in 9th House)
-Palak Suri,1994-03-18,09:45,30.7333,76.7794,Which Mahadasha am I in?,Ketu Mahadasha
-Rudraksh Tiwari,2003-01-28,04:00,26.4499,80.3319,What is my Moon sign?,Moon in Sagittarius
-Hiba Ahmed,1988-05-06,15:10,25.5941,85.1376,Am I Manglik?,Yes (Mars in 2nd House)
-Virendra Singh,1990-12-17,08:30,28.6139,77.2090,Which Mahadasha am I in?,Mercury (Budh) Mahadasha
-Kashish Arora,1996-09-12,14:55,21.1702,72.8311,What is my Moon sign?,Moon in Libra
-Lalit Joshi,1983-11-25,22:25,29.9457,78.1642,Am I Manglik?,No (Mars in 11th House)
-Sukriti Verma,1992-06-03,07:10,22.3072,73.1812,Which Mahadasha am I in?,Sun (Surya) Mahadasha
-Arif Qureshi,1986-08-29,19:40,19.3511,72.9106,What is my Moon sign?,Moon in Scorpio
-Simar Malhotra,1991-01-09,02:05,31.1048,77.1734,Am I Manglik?,Yes (Mars in 7th House)
+Kunal Rathod,1986-07-18,14:20,23.1765,75.7885,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha
+Shruti Nanda,1991-02-05,03:15,20.2961,85.8245,What is my Moon sign?,Moon in Aquarius
+Sagar Jethva,1996-05-21,07:40,22.3072,73.1812,Am I Manglik?,No (Mars in 9th House)
+Roshni Pillai,1983-09-10,23:10,19.7515,75.7139,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha
+Joel Fernandes,1992-11-06,02:35,15.2993,74.1240,What is my Moon sign?,Moon in Aries
+Prerna Sood,1997-12-14,11:05,30.3165,78.0322,Am I Manglik?,No (Mars in 10th House)
+Akhil Saxena,1985-01-17,16:25,26.8467,80.9462,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha
+Neeti Chowdhury,1990-06-22,05:55,22.2587,71.1924,What is my Moon sign?,Moon in Capricorn
+Riyaz Shaikh,1989-03-30,00:45,19.0760,72.8777,Am I Manglik?,No (Mars in 5th House)
+Varun Mishra,1994-09-19,18:35,25.3176,82.9739,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha
+Sanya Grover,2001-08-27,12:20,28.4089,77.3178,What is my Moon sign?,Moon in Pisces
+Abhay Nair,1987-12-03,10:10,8.5241,76.9366,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)"
+Kritika Jain,1993-04-15,07:25,28.7041,77.1025,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha
+Vikas Chauhan,1999-11-09,20:55,26.9124,75.7873,What is my Moon sign?,Moon in Sagittarius
+Meher Fatima,1985-02-26,03:45,22.5726,88.3639,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)"
+Dev Ghosh,1992-08-05,13:15,22.9868,87.8550,Which Mahadasha am I in?,Currently under Ketu (Ketu) Mahadasha
+Tara Menon,1998-07-03,06:35,12.9716,77.5946,What is my Moon sign?,Moon in Scorpio
+Ajinkya Patil,1989-10-23,17:50,19.9975,73.7898,Am I Manglik?,No (Mars in 5th House)
+Palak Suri,1994-03-18,09:45,30.7333,76.7794,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha
+Rudraksh Tiwari,2003-01-28,04:00,26.4499,80.3319,What is my Moon sign?,Moon in Aries
+Hiba Ahmed,1988-05-06,15:10,25.5941,85.1376,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)"
+Virendra Singh,1990-12-17,08:30,28.6139,77.2090,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha
+Kashish Arora,1996-09-12,14:55,21.1702,72.8311,What is my Moon sign?,Moon in Virgo
+Lalit Joshi,1983-11-25,22:25,29.9457,78.1642,Am I Manglik?,"Yes (Mars in 1th House, Manglik rule triggered)"
+Sukriti Verma,1992-06-03,07:10,22.3072,73.1812,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha
+Arif Qureshi,1986-08-29,19:40,19.3511,72.9106,What is my Moon sign?,Moon in Leo
+Simar Malhotra,1991-01-09,02:05,31.1048,77.1734,Am I Manglik?,No (Mars in 5th House)

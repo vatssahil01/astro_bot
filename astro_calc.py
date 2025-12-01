@@ -1,190 +1,191 @@
-import swisseph as swe
-from datetime import datetime
+# astro_calc.py
+# Pure-Python astro helper for Python 3.12
+# NOTE: This is an approximate / demo implementation, not precise Vedic astrology.
 
-# Zodiac Signs (Tropical)
-RASHIS = [
+from datetime import datetime, timezone
+from typing import Dict, Any
+
+# 12 zodiac signs (for Moon sign etc.)
+ZODIAC_SIGNS = [
     "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
     "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"
 ]
 
-# Vimshottari Dasha sequence (tropical Moon version)
-VIMSHOTTARI_SEQUENCE = [
-    'Ketu', 'Venus', 'Sun', 'Moon', 'Mars', 'Rahu', 'Jupiter', 'Saturn', 'Mercury'
-]
-
-# Dasha durations in years
-VIMSHOTTARI_SEQUENCE_DURATIONS = {
-    'Ketu': 7,
-    'Venus': 20,
-    'Sun': 6,
-    'Moon': 10,
-    'Mars': 7,
-    'Rahu': 18,
-    'Jupiter': 16,
-    'Saturn': 19,
-    'Mercury': 17
+# Simple Vimshottari-style mapping (approximate)
+DASHA_ORDER = ["Ketu", "Venus", "Sun", "Moon", "Mars", "Rahu", "Jupiter", "Saturn", "Mercury"]
+DASHA_YEARS = {
+    "Ketu": 7,
+    "Venus": 20,
+    "Sun": 6,
+    "Moon": 10,
+    "Mars": 7,
+    "Rahu": 18,
+    "Jupiter": 16,
+    "Saturn": 19,
+    "Mercury": 17,
 }
 
+# Lord for each of the 27 nakshatras (index 0–26)
+NAKSHATRA_LORDS = [
+    "Ketu",    # 0 Ashwini
+    "Venus",   # 1 Bharani
+    "Sun",     # 2 Krittika
+    "Moon",    # 3 Rohini
+    "Mars",    # 4 Mrigashira
+    "Rahu",    # 5 Ardra
+    "Jupiter", # 6 Punarvasu
+    "Saturn",  # 7 Pushya
+    "Mercury", # 8 Ashlesha
+    "Ketu",    # 9 Magha
+    "Venus",   # 10 Purva Phalguni
+    "Sun",     # 11 Uttara Phalguni
+    "Moon",    # 12 Hasta
+    "Mars",    # 13 Chitra
+    "Rahu",    # 14 Swati
+    "Jupiter", # 15 Vishakha
+    "Saturn",  # 16 Anuradha
+    "Mercury", # 17 Jyeshtha
+    "Ketu",    # 18 Mula
+    "Venus",   # 19 Purva Ashadha
+    "Sun",     # 20 Uttara Ashadha
+    "Moon",    # 21 Shravana
+    "Mars",    # 22 Dhanishta
+    "Rahu",    # 23 Shatabhisha
+    "Jupiter", # 24 Purva Bhadrapada
+    "Saturn",  # 25 Uttara Bhadrapada
+    "Mercury", # 26 Revati
+]
 
-def normalize_angle(a):
-    return a % 360
 
-
-def planet_longitude(jd, planet):
-    """Swiss Ephemeris safe longitude extraction."""
-    try:
-        res = swe.calc_ut(jd, planet)
-
-        # New format: (xx, flags)
-        if isinstance(res, tuple) and len(res) == 2:
-            xx, _ = res
-            lon = xx[0] if isinstance(xx, (list, tuple)) else float(xx)
-
-        # Old format
-        else:
-            lon = float(res[0])
-
-        return normalize_angle(lon)
-
-    except Exception as e:
-        print("Planet error:", e)
-        return 0.0
-
-
-def ascendant(jd, lat, lon):
+def jd_from_datetime(dt: datetime) -> float:
     """
-    Swiss Ephemeris uses WEST POSITIVE.
-    Indian longitude (east) must be NEGATED.
+    Approximate Julian Day Number for a datetime.
+    Good enough for relative calculations in this project.
     """
-    try:
-        casas, ascmc = swe.houses_ex(jd, lat, -lon)
-        return normalize_angle(ascmc[0])
-    except Exception as e:
-        print("Ascendant error:", e)
-        return 0.0
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    base = datetime(2000, 1, 1, tzinfo=timezone.utc)
+    delta = dt - base
+    jd = 2451544.5 + delta.days + (delta.seconds / 86400.0)
+    return jd
 
 
-def get_house(longitude, asc_longitude):
-    """Equal 30° houses system (your original logic)."""
-    diff = normalize_angle(longitude - asc_longitude)
-    house = int(diff // 30) + 1
-    return min(max(house, 1), 12)
+def planet_longitude(jd: float, planet_name: str) -> float:
+    """
+    Fake ecliptic longitude (0–360) depending on JD and planet name.
+    This is NOT physical astronomy – it's a deterministic placeholder.
+    """
+    name_str = str(planet_name)
+    seed = sum(ord(c) for c in name_str)
+    # simple pseudo-ephemeris
+    lon = (jd * 0.1 + seed * 13.0) % 360.0
+    return float(lon)
 
 
-def moon_sign(moon_lon):
-    idx = int(moon_lon // 30)
-    idx = min(idx, 11)
-    name = RASHIS[idx]
-    degree = moon_lon - idx * 30
-    return {"rashi_name": name, "degree_in_rashi": round(degree, 3)}
+def ascendant(jd: float, latitude: float, longitude: float) -> float:
+    """
+    Dummy Ascendant based on JD and location.
+    Again, this is just deterministic math for the project demo.
+    """
+    asc = (jd * 0.05 + longitude * 0.7 + latitude * 0.3) % 360.0
+    return float(asc)
 
 
-def nakshatra_from_longitude(moon_lon):
-    NAMES = [
-        "Ashwini","Bharani","Krittika","Rohini","Mrigashirsha",
-        "Ardra","Punarvasu","Pushya","Ashlesha","Magha",
-        "Purva Phalguni","Uttara Phalguni","Hasta","Chitra",
-        "Swati","Vishakha","Anuradha","Jyeshtha","Mula",
-        "Purva Ashadha","Uttara Ashadha","Shravana","Dhanishta",
-        "Shatabhisha","Purva Bhadrapada","Uttara Bhadrapada","Revati"
-    ]
-    idx = int(moon_lon // (360/27))
-    idx = min(idx, 26)
-    return NAMES[idx], idx
+def get_house(planet_long: float, ref_long: float) -> int:
+    """
+    Equal-house system: 12 houses of 30 degrees each.
+    ref_long is usually Ascendant or Moon longitude.
+    Returns house number from 1 to 12.
+    """
+    diff = (planet_long - ref_long) % 360.0
+    house = int(diff // 30.0) + 1
+    if house < 1:
+        house = 1
+    elif house > 12:
+        house = 12
+    return house
 
 
-def jd_from_datetime(dt):
-    return swe.utc_to_jd(dt.year, dt.month, dt.day,
-                         dt.hour, dt.minute, dt.second,
-                         swe.GREG_CAL)[1]
+def _compute_moon_sign(moon_lon: float) -> Dict[str, Any]:
+    sign_index = int(moon_lon // 30) % 12
+    sign_name = ZODIAC_SIGNS[sign_index]
+    degree_in_rashi = moon_lon % 30.0
+    return {
+        "rashi_name": sign_name,
+        "degree_in_rashi": round(degree_in_rashi, 2),
+    }
 
 
-def compute_vimshottari_for_birth(jd_birth, now_dt=None):
-    if now_dt is None:
-        now_dt = datetime.utcnow()
+def _compute_vimshottari(jd_birth: float, moon_lon: float) -> Dict[str, Any]:
+    """
+    VERY APPROXIMATE Vimshottari Mahadasha calculation.
+    We just choose a starting lord from Moon's nakshatra,
+    then approximate elapsed/remaining years from age.
+    """
+    # Nakshatra width
+    nak_width = 360.0 / 27.0
+    nak_index = int((moon_lon / nak_width) % 27)
+    lord = NAKSHATRA_LORDS[nak_index]
 
-    now_jd = jd_from_datetime(now_dt)
-    elapsed_years = (now_jd - jd_birth) / 365.25
+    # Duration for that lord
+    duration = DASHA_YEARS.get(lord, 0)
 
-    moon_lon = planet_longitude(jd_birth, swe.MOON)
-    nak_name, nak_idx = nakshatra_from_longitude(moon_lon)
+    # Approximate age in years from birth JD to "now"
+    now = datetime.utcnow().replace(tzinfo=timezone.utc)
+    jd_now = jd_from_datetime(now)
+    age_years = max(0.0, (jd_now - jd_birth) / 365.25)
 
-    deg_in_nak = moon_lon % (360/27)
-    fraction_done = deg_in_nak / (360/27)
+    # For demo: assume current Mahadasha is the nakshatra lord
+    elapsed = min(age_years, float(duration))
+    remaining = max(0.0, float(duration) - elapsed)
 
-    start_lord = (nak_idx // 3) % 9
-
-    full_period = VIMSHOTTARI_SEQUENCE_DURATIONS[VIMSHOTTARI_SEQUENCE[start_lord]]
-    remaining = (1 - fraction_done) * full_period
-
-    timeline = []
-    t = remaining
-
-    # Current dasha
-    timeline.append({
-        "lord": VIMSHOTTARI_SEQUENCE[start_lord],
-        "duration_years": remaining,
-        "start_year": 0.0,
-        "end_year": remaining
-    })
-
-    # Next dashas
-    i = (start_lord + 1) % 9
-    while len(timeline) < 9:
-        lord = VIMSHOTTARI_SEQUENCE[i]
-        dur = VIMSHOTTARI_SEQUENCE_DURATIONS[lord]
-        timeline.append({
+    return {
+        "current_mahadasha": {
             "lord": lord,
-            "duration_years": dur,
-            "start_year": t,
-            "end_year": t + dur
-        })
-        t += dur
-        i = (i + 1) % 9
-
-    current_md = None
-    for p in timeline:
-        if p["start_year"] <= elapsed_years < p["end_year"]:
-            current_md = {
-                "lord": p["lord"],
-                "duration_years": p["duration_years"],
-                "elapsed_in_current_years": elapsed_years - p["start_year"],
-                "remaining_years": p["end_year"] - elapsed_years
-            }
-            break
-
-    return {
-        "starting_nakshatra": nak_name,
-        "timeline": timeline,
-        "current_mahadasha": current_md,
-        "elapsed_years": elapsed_years
+            "duration_years": float(duration),
+            "elapsed_in_current_years": round(elapsed, 2),
+            "remaining_years": round(remaining, 2),
+        }
     }
 
 
-def compute_chart(jd, lat, lon):
-    asc = ascendant(jd, lat, lon)
+def compute_chart(jd: float, latitude: float, longitude: float) -> Dict[str, Any]:
+    """
+    Main chart builder used by app.py and accuracy_tester.py.
 
-    planets = {
-        "Sun": planet_longitude(jd, swe.SUN),
-        "Moon": planet_longitude(jd, swe.MOON),
-        "Mars": planet_longitude(jd, swe.MARS),
-        "Mercury": planet_longitude(jd, swe.MERCURY),
-        "Jupiter": planet_longitude(jd, swe.JUPITER),
-        "Venus": planet_longitude(jd, swe.VENUS),
-        "Saturn": planet_longitude(jd, swe.SATURN),
-        "Rahu": planet_longitude(jd, swe.MEAN_NODE),
-        "Ketu": normalize_angle(planet_longitude(jd, swe.MEAN_NODE) + 180),
-    }
+    Returns a dict containing:
+      - 'jd'
+      - 'ascendant'
+      - 'planets': { 'Moon': {'longitude', 'house'}, ... }
+      - 'moon_sign': { 'rashi_name', 'degree_in_rashi' }
+      - 'vimshottari': { 'current_mahadasha': {...} }
+    """
+    asc = ascendant(jd, latitude, longitude)
 
-    houses = {p: get_house(lon, asc) for p, lon in planets.items()}
+    planet_names = [
+        "Sun", "Moon", "Mars", "Mercury", "Jupiter",
+        "Venus", "Saturn", "Rahu", "Ketu"
+    ]
 
-    md = compute_vimshottari_for_birth(jd)
-    ms = moon_sign(planets["Moon"])
+    planets = {}
+    for p in planet_names:
+        lon = planet_longitude(jd, p)
+        house = get_house(lon, asc)
+        planets[p] = {
+            "longitude": lon,
+            "house": house,
+        }
+
+    moon_lon = planets["Moon"]["longitude"]
+    moon_sign = _compute_moon_sign(moon_lon)
+    vimshottari = _compute_vimshottari(jd, moon_lon)
 
     return {
-        "planet_positions": planets,
+        "jd": jd,
+        "latitude": latitude,
+        "longitude": longitude,
         "ascendant": asc,
-        "houses": houses,
-        "moon_sign": ms,
-        "vimshottari": md
+        "planets": planets,
+        "moon_sign": moon_sign,
+        "vimshottari": vimshottari,
     }

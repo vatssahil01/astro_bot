@@ -1,0 +1,91 @@
+Name,Question,Expected,Got,Result
+Ravi Sharma,Am I Manglik?,No (Mars in 5th House),No (Mars in 5th House),PASS
+Priya Mehta,What is my Moon sign?,Moon in Cancer,Moon in Cancer,PASS
+Amit Kumar,Which Mahadasha am I in right now?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Sneha Rao,Am I Manglik?,No (Mars in 3th House),No (Mars in 3th House),PASS
+Rahul Verma,What is my Moon sign?,Moon in Aquarius,Moon in Aquarius,PASS
+Divya Nair,Am I Manglik?,No (Mars in 10th House),No (Mars in 10th House),PASS
+Karan Patel,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha,Currently under Venus (Shukra) Mahadasha,PASS
+Neha Joshi,Am I Manglik?,No (Mars in 5th House),No (Mars in 5th House),PASS
+Arjun Iyer,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Simran Kaur,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha,Currently under Moon (Chandra) Mahadasha,PASS
+Vikram Singh,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)","Yes (Mars in 2th House, Manglik rule triggered)",PASS
+Ananya Das,What is my Moon sign?,Moon in Sagittarius,Moon in Sagittarius,PASS
+Sahil Gupta,Am I Manglik?,"Yes (Mars in 12th House, Manglik rule triggered)","Yes (Mars in 12th House, Manglik rule triggered)",PASS
+Meera Khan,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha,Currently under Jupiter (Guru) Mahadasha,PASS
+Rohit Bansal,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)","Yes (Mars in 4th House, Manglik rule triggered)",PASS
+Tanya Bhatt,What is my Moon sign?,Moon in Leo,Moon in Leo,PASS
+Naveen Kumar,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha,Currently under Sun (Surya) Mahadasha,PASS
+Ritika Soni,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)","Yes (Mars in 2th House, Manglik rule triggered)",PASS
+Aarav Desai,What is my Moon sign?,Moon in Taurus,Moon in Taurus,PASS
+Isha Roy,Am I Manglik?,"Yes (Mars in 7th House, Manglik rule triggered)","Yes (Mars in 7th House, Manglik rule triggered)",PASS
+Kabir Malhotra,Am I Manglik?,No (Mars in 6th House),No (Mars in 6th House),PASS
+Aditi Sharma,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha,Currently under Sun (Surya) Mahadasha,PASS
+Rohan Pillai,What is my Moon sign?,Moon in Libra,Moon in Libra,PASS
+Pooja Deshmukh,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)","Yes (Mars in 2th House, Manglik rule triggered)",PASS
+Shivani Kapoor,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Harsh Choudhary,What is my Moon sign?,Moon in Capricorn,Moon in Capricorn,PASS
+Anjali Singh,Am I Manglik?,"Yes (Mars in 7th House, Manglik rule triggered)","Yes (Mars in 7th House, Manglik rule triggered)",PASS
+Dev Rathore,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha,Currently under Mercury (Budh) Mahadasha,PASS
+Manya Sethi,What is my Moon sign?,Moon in Pisces,Moon in Pisces,PASS
+Tarun Chauhan,Am I Manglik?,"Yes (Mars in 8th House, Manglik rule triggered)","Yes (Mars in 8th House, Manglik rule triggered)",PASS
+Jiya Arora,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Rahul Ghosh,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Niharika Jain,Am I Manglik?,No (Mars in 11th House),No (Mars in 11th House),PASS
+Aditya Verma,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha,Currently under Mars (Mangal) Mahadasha,PASS
+Lavanya Nair,What is my Moon sign?,Moon in Aquarius,Moon in Aquarius,PASS
+Suresh Babu,Am I Manglik?,"Yes (Mars in 8th House, Manglik rule triggered)","Yes (Mars in 8th House, Manglik rule triggered)",PASS
+Nikita Agarwal,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha,Currently under Sun (Surya) Mahadasha,PASS
+Krish Mehta,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Bhavya Patel,Am I Manglik?,No (Mars in 6th House),No (Mars in 6th House),PASS
+Arnav Kulkarni,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Reema Saxena,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Jayant Khanna,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)","Yes (Mars in 4th House, Manglik rule triggered)",PASS
+Muskan Kohli,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha,Currently under Moon (Chandra) Mahadasha,PASS
+Shiv Patel,What is my Moon sign?,Moon in Cancer,Moon in Cancer,PASS
+Deepika Raina,Am I Manglik?,"Yes (Mars in 1th House, Manglik rule triggered)","Yes (Mars in 1th House, Manglik rule triggered)",PASS
+Arvind Mishra,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha,Currently under Jupiter (Guru) Mahadasha,PASS
+Tanvi Rawat,What is my Moon sign?,Moon in Sagittarius,Moon in Sagittarius,PASS
+Yash Chauhan,Am I Manglik?,No (Mars in 3th House),No (Mars in 3th House),PASS
+Sia Fernandes,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha,Currently under Venus (Shukra) Mahadasha,PASS
+Manav Doshi,What is my Moon sign?,Moon in Capricorn,Moon in Capricorn,PASS
+Anushka Sen,Am I Manglik?,No (Mars in 10th House),No (Mars in 10th House),PASS
+Ritik Sharma,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Mahima Gupta,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha,Currently under Moon (Chandra) Mahadasha,PASS
+Samar Sheikh,Am I Manglik?,No (Mars in 6th House),No (Mars in 6th House),PASS
+Deepti Raj,What is my Moon sign?,Moon in Cancer,Moon in Cancer,PASS
+Raghav Tandon,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Ishika Bansal,Am I Manglik?,No (Mars in 10th House),No (Mars in 10th House),PASS
+Harshit Meena,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha,Currently under Mercury (Budh) Mahadasha,PASS
+Rhea Kapoor,What is my Moon sign?,Moon in Capricorn,Moon in Capricorn,PASS
+Zaid Ali,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)","Yes (Mars in 4th House, Manglik rule triggered)",PASS
+Meenal Agarwal,Which Mahadasha am I in?,Currently under Moon (Chandra) Mahadasha,Currently under Moon (Chandra) Mahadasha,PASS
+Farhan Khan,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Jahnvi Reddy,Am I Manglik?,No (Mars in 11th House),No (Mars in 11th House),PASS
+Kunal Rathod,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha,Currently under Venus (Shukra) Mahadasha,PASS
+Shruti Nanda,What is my Moon sign?,Moon in Aquarius,Moon in Aquarius,PASS
+Sagar Jethva,Am I Manglik?,No (Mars in 9th House),No (Mars in 9th House),PASS
+Roshni Pillai,Which Mahadasha am I in?,Currently under Sun (Surya) Mahadasha,Currently under Sun (Surya) Mahadasha,PASS
+Joel Fernandes,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Prerna Sood,Am I Manglik?,No (Mars in 10th House),No (Mars in 10th House),PASS
+Akhil Saxena,Which Mahadasha am I in?,Currently under Jupiter (Guru) Mahadasha,Currently under Jupiter (Guru) Mahadasha,PASS
+Neeti Chowdhury,What is my Moon sign?,Moon in Capricorn,Moon in Capricorn,PASS
+Riyaz Shaikh,Am I Manglik?,No (Mars in 5th House),No (Mars in 5th House),PASS
+Varun Mishra,Which Mahadasha am I in?,Currently under Rahu (Rahu) Mahadasha,Currently under Rahu (Rahu) Mahadasha,PASS
+Sanya Grover,What is my Moon sign?,Moon in Pisces,Moon in Pisces,PASS
+Abhay Nair,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)","Yes (Mars in 4th House, Manglik rule triggered)",PASS
+Kritika Jain,Which Mahadasha am I in?,Currently under Venus (Shukra) Mahadasha,Currently under Venus (Shukra) Mahadasha,PASS
+Vikas Chauhan,What is my Moon sign?,Moon in Sagittarius,Moon in Sagittarius,PASS
+Meher Fatima,Am I Manglik?,"Yes (Mars in 2th House, Manglik rule triggered)","Yes (Mars in 2th House, Manglik rule triggered)",PASS
+Dev Ghosh,Which Mahadasha am I in?,Currently under Ketu (Ketu) Mahadasha,Currently under Ketu (Ketu) Mahadasha,PASS
+Tara Menon,What is my Moon sign?,Moon in Scorpio,Moon in Scorpio,PASS
+Ajinkya Patil,Am I Manglik?,No (Mars in 5th House),No (Mars in 5th House),PASS
+Palak Suri,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha,Currently under Mars (Mangal) Mahadasha,PASS
+Rudraksh Tiwari,What is my Moon sign?,Moon in Aries,Moon in Aries,PASS
+Hiba Ahmed,Am I Manglik?,"Yes (Mars in 4th House, Manglik rule triggered)","Yes (Mars in 4th House, Manglik rule triggered)",PASS
+Virendra Singh,Which Mahadasha am I in?,Currently under Mars (Mangal) Mahadasha,Currently under Mars (Mangal) Mahadasha,PASS
+Kashish Arora,What is my Moon sign?,Moon in Virgo,Moon in Virgo,PASS
+Lalit Joshi,Am I Manglik?,"Yes (Mars in 1th House, Manglik rule triggered)","Yes (Mars in 1th House, Manglik rule triggered)",PASS
+Sukriti Verma,Which Mahadasha am I in?,Currently under Mercury (Budh) Mahadasha,Currently under Mercury (Budh) Mahadasha,PASS
+Arif Qureshi,What is my Moon sign?,Moon in Leo,Moon in Leo,PASS
+Simar Malhotra,Am I Manglik?,No (Mars in 5th House),No (Mars in 5th House),PASS

@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 from astro_calc import compute_chart, jd_from_datetime, planet_longitude, ascendant, get_house
-import swisseph as swe
+# import swisseph as swe  # ❌ REMOVE THIS
 
 # Your Manglik rule
 MANGLIK_HOUSES = [1, 2, 4, 7, 8, 12]
@@ -20,9 +20,10 @@ DASHA_NAMES = {
 }
 
 def check_manglik(jd, lat, lon):
-    mars_lon = planet_longitude(jd, swe.MARS)
+    # ✅ Use planet names instead of swe constants
+    mars_lon = planet_longitude(jd, "Mars")
     asc_lon = ascendant(jd, lat, lon)
-    moon_lon = planet_longitude(jd, swe.MOON)
+    moon_lon = planet_longitude(jd, "Moon")
 
     h1 = get_house(mars_lon, asc_lon)
     h2 = get_house(mars_lon, moon_lon)
@@ -69,7 +70,7 @@ def evaluate_row(row):
     else:
         result = "Unknown"
 
-    # Check PASS/FAIL
+    # Check PASS/FAIL (simple keyword match)
     passed = expected.lower().split()[0] in result.lower()
 
     return {
@@ -101,14 +102,13 @@ def run_accuracy_test(csv_path="sample_cases.csv"):
             passed_count += 1
 
     total = len(results)
-    accuracy = (passed_count / total) * 100
+    accuracy = (passed_count / total) * 100 if total > 0 else 0.0
 
     print("\n================ SUMMARY ================\n")
     print(f"Total Cases: {total}")
     print(f"Passed     : {passed_count}")
     print(f"Failed     : {total - passed_count}")
     print(f"Accuracy   : {accuracy:.2f}%")
-
     print("\n==========================================\n")
 
     # Save results
